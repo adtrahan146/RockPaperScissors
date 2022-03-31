@@ -1,0 +1,28 @@
+#game-div{
+    visibility: hidden;
+}
+#guess-rock, #guess-paper, #guess-scissors{
+    height: 100px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+body, input{
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(144,201,192);
+    justify-content: center;
+    margin: 0px;
+}
+p{
+    font-size: smaller;
+}
+h1, h2, h3, h4{
+    margin-top: 0px;
+}
