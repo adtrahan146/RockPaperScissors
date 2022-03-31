@@ -40,34 +40,34 @@ function displayHands(guess, opponentHand){
     if(guess == 'rock'){
         playerSelection.innerHTML = (`
             <h4> Your Selection: </h4>
-            <img src="assets/rock.jpg" class="animate__animated animate__backInLeft animate__delay-3s" width="100" id="player-selection"> </img>
+            <img src="./assets/rock.jpg" class="animate__animated animate__backInLeft animate__delay-3s" width="100" id="player-selection"> </img>
         `);
     }else if(guess == 'paper'){
         playerSelection.innerHTML = (`
             <h4> Your Selection: </h4>
-            <img src="assets/paper.jpg" class="animate__animated animate__backInLeft animate__delay-3s" width="100" id="player-selection"> </img>
+            <img src="./assets/paper.jpg" class="animate__animated animate__backInLeft animate__delay-3s" width="100" id="player-selection"> </img>
         `);
     }else{
         playerSelection.innerHTML = (`
             <h4> Your Selection: </h4>
-            <img src="assets/scissors.jpg" class="animate__animated animate__backInLeft animate__delay-3s" width="100" id="player-selection"> </img>
+            <img src="./assets/scissors.jpg" class="animate__animated animate__backInLeft animate__delay-3s" width="100" id="player-selection"> </img>
         `);
     }
 
     if(opponentHand == 'rock'){
         opponentSelection.innerHTML = (`
             <h4> Opponent's Selection: </h4>
-            <img src="assets/rock.jpg" class="animate__animated animate__backInRight animate__delay-3s" width="100" id="player-selection"> </img>
+            <img src="./assets/rock.jpg" class="animate__animated animate__backInRight animate__delay-3s" width="100" id="player-selection"> </img>
         `);
     }else if(opponentHand == 'paper'){
         opponentSelection.innerHTML = (`
             <h4> Opponent's Selection: </h4>
-            <img src="assets/paper.jpg" class="animate__animated animate__backInRight animate__delay-3s" width="100" id="player-selection"> </img>
+            <img src="./assets/paper.jpg" class="animate__animated animate__backInRight animate__delay-3s" width="100" id="player-selection"> </img>
         `);
     }else{
         opponentSelection.innerHTML = (`
             <h4> Opponent's Selection: </h4>
-            <img src="assets/scissors.jpg" class="animate__animated animate__backInRight animate__delay-3s" width="100" id="player-selection"> </img>
+            <img src="./assets/scissors.jpg" class="animate__animated animate__backInRight animate__delay-3s" width="100" id="player-selection"> </img>
         `);
     }
 }
@@ -88,7 +88,7 @@ function runAnimation(){
 
 function updateView(){
     document.getElementById('announcements-text').innerHTML += (`
-        <img id="replay-button" width="100" height="50" src="assets/start.png">
+        <img id="replay-button" width="100" height="50" src="./assets/start.png">
     `);
     document.getElementById('replay-button').addEventListener('click', replay);
 }
