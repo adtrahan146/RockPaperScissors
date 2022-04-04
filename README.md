@@ -1,5 +1,7 @@
 # RockPaperScissors
 A small rock/paper/scissors SPA using JS and DOM Events
+#### Game Link: 
+https://adtrahan146.github.io/RockPaperScissors/
 
 ## Releases: 
 ### 1.0 //Initial Release!
